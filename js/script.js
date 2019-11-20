@@ -3,7 +3,7 @@ function init() {
   var message = document.getElementById("entryinput");
   var result = document.getElementById("textoutput");
   button.addEventListener("click", function () {
-    alert("Yannick Massiv: " + message.value);
+    alert("Yannick Massivi: " + message.value);
     document.getElementById("textoutput").innerHTML = message.value;
     result.innerHTML = message.value;
   });
